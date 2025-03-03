@@ -20,7 +20,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 public class BaseClass {
-	public static WebDriver driver;
+	public static  WebDriver driver;
 	public Logger logger;
 	public Properties prop;
 	

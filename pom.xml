@@ -16,15 +16,15 @@
 						<!-- put your configurations here -->
 					</configuration>
 				</plugin>
-				
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.5.2</version>
 					<configuration>
-					<suiteXmlFiles>
-						<suitXmlFile>master.xml</suitXmlFile>
-					</suiteXmlFiles>
+						<suiteXmlFiles>
+							<suitXmlFile>master.xml</suitXmlFile>
+						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 			</plugins>
